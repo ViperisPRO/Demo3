@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="vkonstantinovModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Sklad">
+    <Key>
+      <PropertyRef Name="Num" />
+    </Key>
+    <Property Name="Num" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="adress" Type="String" MaxLength="255" FixedLength="true" Unicode="true" />
+    <Property Name="vid" Type="String" MaxLength="255" FixedLength="true" Unicode="true" />
+    <Property Name="rast" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="vkonstantinovEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Sklad" EntityType="Self.Sklad" />
+  </EntityContainer>
+</Schema>
