@@ -45,3 +45,18 @@ namespace DEMO_03
 Предварительное условие	В базу должны быть загружен тестовый продукт	
 Постусловие	Таблица товаров должна быть пустой	
 Примечания/комментарии	Т.к. мы добавили только товар без продаж и дополнительных товаров, то ошибок в принципе быть не может ни по вине кода ни по ограничениям базы
+
+git branch
+
+git checkout master
+
+git commit -m "name"
+git push heroku master
+
+public class Analytics
+{
+    public List<DateTime> PopularMonths(List<DateTime> dates)
+    {
+        return dates;
+    }
+}
