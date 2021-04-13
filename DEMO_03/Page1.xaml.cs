@@ -46,12 +46,10 @@ namespace DEMO_03
 Постусловие	Таблица товаров должна быть пустой	
 Примечания/комментарии	Т.к. мы добавили только товар без продаж и дополнительных товаров, то ошибок в принципе быть не может ни по вине кода ни по ограничениям базы
 
-git branch
+git add .
 
-git checkout master
-
-git commit -m "name"
-git push heroku master
+git commit -m ""
+git push heroku master(main)
 
 public class Analytics
 {
